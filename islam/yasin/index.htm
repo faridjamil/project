@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Surat Yasin — Baca & Terjemahan (Offline)</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="brand">
+      <h1>Surat <span>Yā Sīn</span></h1>
+      <p class="subtitle">Baca Al-Qur’an — Arab & Terjemahan Bahasa Indonesia (Offline-ready)</p>
+    </div>
+    <nav class="controls">
+      <input id="search" placeholder="Cari kata dalam ayat..." />
+      <button id="toggleDark" title="Toggle mode">🌓</button>
+      <button id="increase" title="Perbesar font">A+</button>
+      <button id="decrease" title="Perkecil font">A-</button>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="surah-intro">
+    <h2 id="surah-title">Yā Sīn (يس)</h2>
+    <p class="meta">Surah 36 — 83 ayat</p>
+    <p class="lead">Klik ayat untuk menyalin teks Arab. Gunakan kotak pencarian untuk menemukan kata dalam ayat atau terjemahan.</p>
+  </section>
+
+  <section id="surah-content" class="surah-content" aria-live="polite">
+    <!-- Ayat akan dimuat di sini oleh script.js -->
+    <div class="loading">Memuat ...</div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>Website offline sederhana — font lokal required (letakkan file font di folder <code>/fonts</code>).</p>
+    <p>Designed with ❤️ — export atau modifikasi sesuka Anda.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
